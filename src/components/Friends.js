@@ -35,6 +35,7 @@ class Friends extends React.Component{
       }
     });
     }
+    this.state.input=''
   }
 
   handleDelete(name){
